@@ -1,0 +1,26 @@
+{
+  "name": "permata_auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iskandar",
+  "license": "ISC",
+  "dependencies": {
+    "@riversun/simple-date-format": "^1.1.4",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-basic-auth": "^1.2.0",
+    "express-ipfilter": "^1.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.5",
+    "numeral": "^2.0.6",
+    "request-ip": "^2.1.3",
+    "schema": "^0.2.1"
+  }
+}
