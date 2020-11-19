@@ -33,6 +33,7 @@ app.use('/', userRt);
 app.use('/', validateUser, getBillRt);
 app.set('secretKey', 'nodeRestApi');
 
+
 // Basic Auth 
 function myAuthorizer(username, password, cb, res) {
     var username = username;
